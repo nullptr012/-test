@@ -1,0 +1,11 @@
+{
+  "name": "chinese-chess",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "python3 -m http.server 8000 --bind 0.0.0.0",
+    "test": "node --test tests/*.test.js"
+  }
+}
